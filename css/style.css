@@ -3,8 +3,6 @@
 }
 
 body{
-    width: 55%;
-    margin: 0 auto;
     background-color: #f8fbfe;
     font-family: 'Nunito', sans-serif;
     
@@ -12,6 +10,9 @@ body{
 
 .container{
     padding-top: 50px;
+    width: 55%;
+    margin: 0 auto;
+
 }
 
 .wrapp{
@@ -19,6 +20,11 @@ body{
     justify-content: space-between;
     align-items: baseline;
 
+}
+
+.save-wrapp{
+    width: 55%;
+    margin: 0 auto;
 }
 
 .nav{
@@ -69,6 +75,7 @@ body{
     top: -18px;
 }
 
+
 .save{
     display: flex;
     padding-top: 90px;
@@ -94,6 +101,7 @@ body{
 
 .head-img{
     margin-top: 90px;
+    width: 50%;
 }
 
 .title-btn{
@@ -105,6 +113,11 @@ text-decoration: none;
 font-weight: 700;
 
 } 
+
+.main{
+    margin: 0 auto;
+    width: 55%;
+}
 
 .main-bgc{
     /* width: 1117px;
@@ -142,6 +155,14 @@ font-weight: 700;
 .features{
     text-align: center;
     margin-top: 150px;
+    margin: 0 auto;
+    /* width: 55%; */
+}
+
+.features-title{
+    padding-top: 150px;
+    margin: 0 auto;
+
 }
 
 .features h1{
@@ -207,11 +228,11 @@ font-weight: 700;
 }
 
 .blocks p{
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 160%;
-color: #4B5D68;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
 }
 
 .blocks h5{
@@ -232,7 +253,8 @@ color: #4B5D68;
 }
 
 .testimo-block{
-    width: 1118px;
+    width: 55%;
+    margin: 0 auto;
     height: 709px;
     margin-top: 175px;
     background: #9C69E2;
@@ -317,6 +339,8 @@ color: #4B5D68;
     align-items: center;
     justify-content: space-between;
     padding-top: 200px;
+    width: 55%;
+    margin: 0 auto;
 }
 
 .block-title{
@@ -337,10 +361,10 @@ color: #4B5D68;
 }
 
 .button-arr{
-position: relative;
-left: -30px;
-top: 1px;
-width: 15px;
+    position: relative;
+    left: -30px;
+    top: 1px;
+    width: 15px;
 }
 
 .buttons{
@@ -366,20 +390,18 @@ width: 15px;
     box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 }
 
-.footer{
+/* .footer{
     padding-top: 100px;
-    /* display: flex; */
-
-
-
-}
+    width: 55%;
+    margin: 0 auto;
+} */
 
 .footer-container{
     display: flex;
-    width: 1117px;
+    width: 55%;
     justify-content: space-between;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .data-logo{
@@ -387,7 +409,7 @@ width: 15px;
     height: 60px;
 }
 
-.data-logo h5{
+.data-logo p{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -430,4 +452,6 @@ width: 15px;
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
+    width: 55%;
+    margin: 0 auto;
 }
